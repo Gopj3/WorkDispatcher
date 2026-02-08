@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkDispatcher.Core", "src\WorkDispatcher.Core\WorkDispatcher.Core.csproj", "{CA7D9052-98AB-4A85-A465-83372984D071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F897ACF-2DF1-424F-9C57-28C22B90CD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{740A4644-1571-4151-8D78-0718977E33C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkDispatcher.Engine.Tests", "tests\WorkDispatcher.Engine.Tests\WorkDispatcher.Engine.Tests.csproj", "{95B36E66-9E63-453C-86A1-4FF039DE7781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7D9052-98AB-4A85-A465-83372984D071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7D9052-98AB-4A85-A465-83372984D071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7D9052-98AB-4A85-A465-83372984D071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7D9052-98AB-4A85-A465-83372984D071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B36E66-9E63-453C-86A1-4FF039DE7781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B36E66-9E63-453C-86A1-4FF039DE7781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B36E66-9E63-453C-86A1-4FF039DE7781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B36E66-9E63-453C-86A1-4FF039DE7781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA7D9052-98AB-4A85-A465-83372984D071} = {8F897ACF-2DF1-424F-9C57-28C22B90CD28}
+		{95B36E66-9E63-453C-86A1-4FF039DE7781} = {740A4644-1571-4151-8D78-0718977E33C6}
+	EndGlobalSection
+EndGlobal
